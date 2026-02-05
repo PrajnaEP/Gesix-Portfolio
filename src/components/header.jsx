@@ -16,15 +16,17 @@ const Header = () => {
       </a>
 
       <nav className="nav">
-        <a href="#home">
+        <a href="#home" aria-label="Home">
           <FaHome />
           <span className="nav-text">Home</span>
         </a>
-        <a href="#tech">
+
+        <a href="#tech" aria-label="Skills">
           <FaTools />
           <span className="nav-text">Skills</span>
         </a>
-        <a href="#projects">
+
+        <a href="#projects" aria-label="Projects">
           <FaProjectDiagram />
           <span className="nav-text">Projects</span>
         </a>
