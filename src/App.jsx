@@ -7,12 +7,16 @@ import Footer from "./components/footer";
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <TechStack />
-      <Projects />
-      <Footer />
-    </>
+        <Header />
+
+        <main id="main-content">
+          <Hero />
+          <TechStack />
+          <Projects />
+        </main>
+
+        <Footer />
+      </>
   );
 }
 
