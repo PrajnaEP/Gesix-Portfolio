@@ -48,12 +48,12 @@
 }
 
 .btn.primary {
-  background: #6366f1;
+  background: #4f46e5;
   color: white;
 }
 
 .btn.primary:hover {
-  background: #4f46e5;
+  background: #4338ca;
   transition: 0.2s ease;
 }
 
