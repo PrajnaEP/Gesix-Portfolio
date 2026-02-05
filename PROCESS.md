@@ -1,61 +1,41 @@
+# PROCESS.md
 
-### Reasoning:
-- Each UI section is separated into its own component.
-- Improves readability and scalability.
-- Makes future updates easier without affecting the entire codebase.
+## 1. Architecture & Folder Structure
 
----
+In this project every section of the page is divided into components and stored in components folder. Styles are also divided into individual CSS file for each component. This helps us to add styling easily without having any conflicts of classes.
 
-## 2️⃣ AI Tool Usage
-
-AI tools were used as a **development assistant** to speed up the workflow and improve code quality.
-
-### How AI was used:
-- Generating initial component structures
-- Refining UI layout ideas
-- Improving project descriptions and documentation
-- Debugging CSS spacing and responsiveness issues
-
-### Sample Prompt Used:
-> ## AI Usage
-AI tools were used **rarely and only at specific points** during development, mainly as a support tool.
-
-AI assistance was used for:
-- Clarifying layout and UI alignment approaches
-- Getting suggestions for improving spacing and responsiveness
-
-All AI-generated suggestions were reviewed and modified before use.
+This structure is chosen in order to keep the code clean and easy to maintain. In this structure each component is responsible for a particular section of the page, which makes any update and finding error simpler. This also helps in preventing changes in one component from affecting the rest of the application.
 
 ---
 
-## 3️⃣ Challenges Faced & Solutions
+## 2. AI Tool Usage
 
-### Challenge:
-Ensuring proper spacing, alignment, and responsiveness across different screen sizes, especially preventing content from touching screen edges on mobile devices.
+AI tools were used as a development assistant and to sort a few styling issues. Suggestions from AI were understood and reviewed before using.
 
-### Solution:
-- Implemented consistent padding and margin rules across sections.
-- Used media queries to adjust spacing for mobile view.
-- Reduced card sizes and removed forced heights to prevent content overflow.
-- Carefully tested layouts in both desktop and mobile views.
+### AI was used as follows:
 
----
+- Asking for different ideas for portfolio
+- Suggesting icons from react-icons
+- Help in CSS responsiveness issues
 
-## 4️⃣ Performance & Responsiveness
+### Example Prompt Used
 
-- The website is fully responsive and works smoothly across devices.
-- Clean CSS and optimized layout help achieve good Lighthouse scores.
-- Icons and assets are lightweight to maintain fast load times.
+Which library is best for icons like html,js,sql to use in React.js.
 
 ---
 
-## 5️⃣ Final Outcome
+## 3. Challenges Faced & Solution
 
-The final portfolio is:
-- Clean and minimal
-- Mobile-friendly
-- Easy to navigate
-- Professionally structured
-- Ready for real-world use and evaluation
+### Challenge
+
+Creating a navigation bat which has proper design on different sizes of screens.
+
+### Solution
+
+This issue was solved by selectively hiding and showing text labels and preserving the icons throughout and adjusting the gaps between them.These changes helped us achieve a balanced and responsive layout across all screen sizes.
 
 ---
+
+## 4. Conclusion
+
+The final portfolio is clean and professional. It is easy to navigate and it is responsive across different devices. I have built it in a structured way so that it is easy to understand and update in future.
